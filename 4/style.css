@@ -1,0 +1,199 @@
+	body{
+			margin: 0;
+		}
+		#bk{
+			widows: 950px;height: 2550px;
+			background-color:darkolivegreen ;
+		}
+		#main{
+			position: relative;
+			width: 880px;
+			height: 2480px;
+			margin: auto;
+			background-color: #CCD84E;
+		}
+		.zhuti{
+			/*position: relative;*/
+			width: 880px;
+			height:650px;
+			background: url(img/v2-276148c4251014723e3566934eb2b128.jpg);
+			background-size: 880px 650px;
+		}
+		.title{
+			z-index: 2;
+			width: 530px;
+			height: 55px;
+			float: left;
+			text-align: center;
+			
+			background-color:rgba(255,255,255,0.1);
+			
+		}
+		.tbox{
+			height: 55px;
+			width:70px;
+			text-align: center;
+			line-height: 55px;
+			background-color: #D3E150;
+			
+			float: right;
+		}
+		.un{
+			border: 1.5px solid #CCE1A9;
+		}
+		.un>img{
+			width: 200px;
+			height: 350px;
+			
+		}
+		#un1{
+			z-index: 2;
+			position: absolute;
+			margin-top: -80px;
+			left: 80px;
+			width: 200px;height: 350px;
+		}
+		#un2{
+			z-index: 2;
+			position: absolute;
+	   		left: 330px;
+			width: 200px;height: 350px;
+			background-color: cadetblue;	
+		}
+		#un3{
+			z-index: 2;
+			position: absolute;
+	   		left: 580px;
+	   		margin-top: 80px;
+			width: 200px;height: 350px;
+			background-color: cadetblue;	
+		}
+		#midle1{
+			width: 880px;height: 800px;
+			background:url(img/背景.jpg);
+			background-size: 880px 800px;
+			background-attachment: fixed;
+		}
+		.im{
+		/*	position: absolute;*/
+			width: 220px;height: 220px;
+			border-radius: 100%;
+			margin-left: 50px;
+			margin-top: 550px;
+			float: left;
+			border: 1.5px solid  darkolivegreen;
+			background-color: rgba(255,255,255,0.3);
+			text-align: center;
+			line-height: 220px;
+			
+		}
+		.im1{
+			width: 220px;height: 220px;
+			border-radius: 100%;
+			margin-left: 50px;
+			margin-top: 350px;
+			float: left;
+			border: 1.5px solid  mediumseagreen ;
+			background-color: rgba(255,255,255,0.1);
+			text-align:center;
+			line-height: 220px;
+
+		}
+		.im2{
+			width: 220px;height: 220px;
+			border-radius: 100%;
+			margin-left: 50px;
+			margin-top: 450px;
+			float: left;
+			border: 1.5px solid darkseagreen;
+			background-color: rgba(255,255,255,0.2);
+			text-align: center;
+			line-height: 220px;
+		}
+		
+		
+		.show_title{
+			margin: auto;
+			width: 200px;height: 100px;
+			background: url(img/v2-e603d07409abbe57f5c463b0b0144115.jpg);
+			background-size: 200px 100px;
+			background-color: rgba(255,255,255,0.7);
+			overflow: hidden;
+			border-radius:100px 100px 0 0;
+		}
+		.min{
+			margin: auto;
+			width: 200px;height: 100px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius:0 0 100px 100px;
+			text-align: center;
+			line-height: 100px;
+		}
+		
+		#midle2{
+			width: 880px;
+			height: 900px;
+			background-size: 880px 900px;
+			background:url(img/太古里.jpg);
+			background-attachment: fixed;
+			/*position: relative;*/
+			
+		}
+		#mbox{
+			position: relative;
+			width: 750px;height: 710px;
+			margin: auto;
+			border: 1.2px solid white;
+			border-style: dashed;
+			background-color: #F17C5E;
+		}
+		#c1{
+			position: absolute;
+			width:348px ;height: 280px;
+			background:url(img/v2-d32320577acd9faf8ee7fa3ddd1a99ec.jpg);
+			background-size: 348px 280px;
+			margin-left: 25px;margin-top: 22px;
+			border: 1.2px solid white;
+		}
+		#c2{
+			position: absolute;
+			width:348px ;height: 280px;
+			background:url(img/v2-01998c7ada8688a530420be9ba330487.jpg);
+			background-size: 348px 280px;
+			right: 24px;bottom: 22px;
+			border: 1.2px solid white;
+			
+		}
+		#f1{
+			width: 320px;height: 180px;
+			float: right;
+			margin-right: 13px;
+			margin-top: 55px;
+			border:1.2px solid black;
+			border-style:inherit;
+		}
+		#f2{
+			width: 320px;height: 180px;
+			float: right;
+			margin-right: 25px;
+			margin-top: 350px;
+			border:1.2px solid black;
+			border-style:inherit;
+		}
+		#music{
+			z-index: 2;
+			position: absolute;
+			background-color: rgba(255,255,255,0.2);
+			width: 880px;
+			height: 80px;
+			bottom: 0px;
+		}
+		font[title="box"]{
+			font-family: "黑体";
+			color: rgba(255,255,255,0.9);
+			font-size: larger;
+		}
+		#mp3bn{
+		    margin: 8px 80px -15px 50px;
+			width: 400px;height: 60px;
+		}
